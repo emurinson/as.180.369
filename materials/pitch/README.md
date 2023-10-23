@@ -40,11 +40,19 @@ research paper.
         - How do I use `gh`?
 2. **CR**, **CC**, **MZ** check your understanding (30 mins)
     - [Github.com](http://github.com) Check (5 mins): Resync your ‘fork’ against [‘origin’](http://github.com/llorracc/as.180.369).
-    - Markdown Check (10 mins): Incorporate formatting into the Dennett summary in your `contrib/` directory.
     - [Jupyterhub](http://jhu.econ-ark.org) Check (5 mins): Log in.
+        - Under your `contrib/` folder, open your Dennett summary and copy the contents into a new notebook.
+        - Incorporate Markdown formatting into the Dennett summary **notebook** in your `contrib/` directory.
+        - Save and close the notebook.
     - [`git`](https://docs.github.com/en/get-started/quickstart/hello-world) and [`gh`](https://cli.github.com/manual/examples) Check: From Jupyrerhub, clone your fork, make a commit, and push back to Github. (10 mins)
+        - `git status` to see if there is any uncommitted work.
+        - `git add` your Dennett Summary **notebook**
+        - `git status` to check what is in your staging area (to inspect what has been `git add`ed)
+        - `git commit -m …` the changes you `git add`ed.
+        - `git push origin` to synchronize the changes from your Jupyterhub to Github.
+    - **You should NEVER EVER edit ANYTHING on the Github website again** All changes should be made in Jupyterhub and then `git push`ed up.
 3. **CC**, **MZ** overview of term paper & process (15 mins): What is the overall goal of the term paper? What process will we follow? What do we want to accomplish through the pitch process?
-5. [Sign up for 2 of the starting topics](https://github.com/llorracc/as.180.369/issues/1).
+4. [Sign up for 2 of the starting topics](https://github.com/llorracc/as.180.369/issues/1).
 
 **Homework**
 - Choose your 2 topics on Github
@@ -81,6 +89,8 @@ research paper.
         - based upon your review of the literatures.
 
 ## Mon Sep 25: Research Pitches
+
+[Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2%5Fjh%5Fedu%2FDocuments%2FFall%202023%20AS%2E160%2E369%20Class%20Recordings%2F2023%2E09%2E25%20Class%204%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1)
 
 You will create a pitch, consisting of any visual aid of your choice. The pitch
 should be no longer than 5 minutes in duration and should convey the following
